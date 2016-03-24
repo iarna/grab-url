@@ -1,0 +1,25 @@
+{
+  "name": "grab-url",
+  "version": "1.0.0",
+  "description": "Download urls, put them in files. Like wget or curl but worse. ;)",
+  "main": "index.js",
+  "bin": {
+    "grab-url": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org/)",
+  "license": "ISC",
+  "dependencies": {
+    "are-we-there-yet": "^1.1.2",
+    "gauge": "^2.7.3",
+    "request": "^2.79.0",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tap": "^5.7.0"
+  }
+}
